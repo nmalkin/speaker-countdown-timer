@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/speaker-countdown-timer/static/css/main.2a12bcff.css",
+    "main.js": "/speaker-countdown-timer/static/js/main.20af9658.js",
+    "index.html": "/speaker-countdown-timer/index.html",
+    "main.2a12bcff.css.map": "/speaker-countdown-timer/static/css/main.2a12bcff.css.map",
+    "main.20af9658.js.map": "/speaker-countdown-timer/static/js/main.20af9658.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a12bcff.css",
+    "static/js/main.20af9658.js"
+  ]
+}
