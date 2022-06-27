@@ -1,0 +1,28 @@
+.progress-background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+  display: block;
+  color: transparent;
+}
+
+.progress-bar {
+  display: block;
+  height: 1em;
+  background-color: rgb(92, 153, 246);
+  transition: width 1s linear;
+}
+
+.progress-lots {
+  background-color: rgb(71, 233, 68);
+}
+
+.progress-limited {
+  background-color: rgb(233, 208, 68);
+}
+
+.progress-over {
+  background-color: rgb(233, 141, 141);
+}

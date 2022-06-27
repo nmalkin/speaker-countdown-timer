@@ -1,0 +1,28 @@
+.time-countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 95vh;
+}
+
+.time-number {
+  font-size: 60vh;
+}
+
+.time-caption {
+  font-size: 25vh;
+}
+
+.time-lots {
+  color: rgb(71, 233, 68);
+}
+
+.time-limited {
+  color: rgb(233, 208, 68);
+}
+
+.time-over {
+  color: rgb(233, 141, 141);
+}
+

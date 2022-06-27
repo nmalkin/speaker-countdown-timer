@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace; /* via https://qwtel.com/posts/software/the-monospaced-system-ui-css-font-stack/ */
+}
+
+.time-progress {
+  width: 100%;
+}
+
+::-webkit-progress-value {
+  transition: width 2s;
+}

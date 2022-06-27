@@ -1,8 +1,8 @@
 {
-  "short_name": "",
-  "name": "",
+  "short_name": "Speaker Countdown",
+  "name": "Speaker Countdown Timer",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#47e944",
+  "background_color": "#000000"
 }

@@ -1,0 +1,22 @@
+.controls {
+  position: absolute;
+  bottom: 0;
+}
+
+.controls,
+.controls button,
+.controls input,
+.controls a {
+  font-size: 0.5em;
+  font-family: inherit;
+
+  background-color: inherit;
+  color: rgb(146, 146, 146);
+  border-color: rgb(146, 146, 146);
+  border-width: 1px;
+}
+
+.controls input {
+  max-width: 4em;
+  text-align: center;
+}
