@@ -62,7 +62,7 @@ function SpeakerCountdown() {
         </button>
         to
         <input
-          type="text"
+          type="number"
           value={countdownDurationFieldValue}
           onChange={(event) => {
             const inputValue = event.target.value;
