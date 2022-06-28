@@ -17,8 +17,12 @@ function SpeakerCountdown() {
 
   useEffect(() => {
     if (running) {
+      const lastUpdateTime = Date.now();
+
       const timeout = setTimeout(() => {
-        setSecondsElapsed(secondsElapsed + 1);
+        const secondsSinceUpdate = (Date.now() - lastUpdateTime) / 1000; // would be 1 if timeout is exactly 1 second, but timeout may be delayed if tab is in background
+
+        setSecondsElapsed(secondsElapsed + secondsSinceUpdate);
       }, 1000);
 
       return function cleanup() {
