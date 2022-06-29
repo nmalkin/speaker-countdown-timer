@@ -9,7 +9,7 @@ function ProgressBar({ secondsElapsed, secondsTotal }: Props) {
   const progressFraction = Math.min(1, secondsElapsed / secondsTotal);
   const progressPercent = progressFraction * 100;
 
-  const secondsRemaining = secondsTotal - secondsElapsed;
+  const secondsRemaining = Math.round(secondsTotal - secondsElapsed);
   const progressClass =
     secondsRemaining >= 120
       ? "lots"
