@@ -7,7 +7,7 @@
 .controls button,
 .controls input,
 .controls a {
-  font-size: 0.5em;
+  font-size: 0.75em;
   font-family: inherit;
 
   background-color: inherit;
@@ -17,6 +17,6 @@
 }
 
 .controls input {
-  max-width: 8em;
+  max-width: 4em;
   text-align: center;
 }
