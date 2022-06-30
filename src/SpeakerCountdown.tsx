@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import TimeDisplay from "./TimeDisplay";
 import "./CountdownControls.css";
+import { toggleFullScreen } from "./fullscreen";
 import ProgressBar from "./ProgressBar";
+import TimeDisplay from "./TimeDisplay";
 
 const DEFAULT_COUNTDOWN_DURATION_MINUTES = 10;
 
@@ -80,7 +81,7 @@ function SpeakerCountdown() {
             toggleFullScreen();
           }}
         >
-          Fullscreen
+          Full screen
         </button>{" "}
         | <a href="https://github.com/nmalkin/speaker-countdown-timer">About</a>
       </div>
@@ -94,13 +95,3 @@ function SpeakerCountdown() {
 }
 
 export default SpeakerCountdown;
-
-function toggleFullScreen() {
-  if (!document.fullscreenElement) {
-    document.documentElement.requestFullscreen();
-  } else {
-    if (document.exitFullscreen) {
-      document.exitFullscreen();
-    }
-  }
-}
