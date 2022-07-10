@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/speaker-countdown-timer/static/css/main.03330aee.css",
-    "main.js": "/speaker-countdown-timer/static/js/main.abb94025.js",
+    "main.js": "/speaker-countdown-timer/static/js/main.e95a4e63.js",
+    "service-worker.js": "/speaker-countdown-timer/service-worker.js",
     "index.html": "/speaker-countdown-timer/index.html",
     "main.03330aee.css.map": "/speaker-countdown-timer/static/css/main.03330aee.css.map",
-    "main.abb94025.js.map": "/speaker-countdown-timer/static/js/main.abb94025.js.map"
+    "main.e95a4e63.js.map": "/speaker-countdown-timer/static/js/main.e95a4e63.js.map"
   },
   "entrypoints": [
     "static/css/main.03330aee.css",
-    "static/js/main.abb94025.js"
+    "static/js/main.e95a4e63.js"
   ]
 }
