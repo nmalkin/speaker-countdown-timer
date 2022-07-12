@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/speaker-countdown-timer/static/css/main.03330aee.css",
-    "main.js": "/speaker-countdown-timer/static/js/main.e95a4e63.js",
+    "main.css": "/speaker-countdown-timer/static/css/main.8db2551d.css",
+    "main.js": "/speaker-countdown-timer/static/js/main.29861358.js",
     "service-worker.js": "/speaker-countdown-timer/service-worker.js",
     "index.html": "/speaker-countdown-timer/index.html",
-    "main.03330aee.css.map": "/speaker-countdown-timer/static/css/main.03330aee.css.map",
-    "main.e95a4e63.js.map": "/speaker-countdown-timer/static/js/main.e95a4e63.js.map"
+    "main.8db2551d.css.map": "/speaker-countdown-timer/static/css/main.8db2551d.css.map",
+    "main.29861358.js.map": "/speaker-countdown-timer/static/js/main.29861358.js.map"
   },
   "entrypoints": [
-    "static/css/main.03330aee.css",
-    "static/js/main.e95a4e63.js"
+    "static/css/main.8db2551d.css",
+    "static/js/main.29861358.js"
   ]
 }
