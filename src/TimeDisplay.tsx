@@ -46,7 +46,7 @@ function TimeDisplay({ secondsRemaining }: Props) {
     return (
       <div className="time-countdown">
         <span className="time-over">
-          <span className="time-number">-</span>
+          <span className="time-caption">-</span>
           {minutesPastCutoff > 0 && (
             <>
               <span className="time-number">{minutesPastCutoff}</span>{" "}
